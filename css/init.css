@@ -90,17 +90,19 @@ strong {
 em {
 	font-style: inherit;
 }
+a {
+	text-decoration-skip-ink: auto;
+}
 
 a:not([class]):not(nav a):not(#header a):not(#footer a) {
-	/* text-decoration-skip-ink: auto; */
 	color: currentColor;
 }
 
-/* a:not([class]):not(nav a):not(#header a):not(#footer a):hover {
+a:not([class]):not(nav a):not(#header a):not(#footer a):hover {
 	text-decoration: underline;
 	text-decoration-thickness: 1px;
 	text-underline-offset: 3px;
-} */
+}
 
 a:hover {
 	opacity: 0.8;
