@@ -290,6 +290,7 @@ nav ul {
 		gap: var(--navListGap);
 		margin: 0;
 		padding: 0.5rem 0;
+		display: block;
 	}
 }
 
